@@ -14,6 +14,7 @@ const Invite = () => {
         backgroundColor: "#1a1a1a",
         color: "white",
         flexDirection: { xs: "column", md: "row" }, // Responsive layout
+        height: "600px"
       }}
     >
       {/* Text Section */}
@@ -39,7 +40,7 @@ const Invite = () => {
 
       {/* Image Section */}
       <Box sx={{ flex: 1, textAlign: "center", mt: { xs: 4, md: 0 } }}>
-        <Image src={coinstack} alt="Coin Stack" width={500} height={300} />
+        <Image src={coinstack} alt="Coin Stack" width={600} height={600} />
       </Box>
     </Box>
   );

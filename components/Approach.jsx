@@ -41,7 +41,7 @@ const Approach = () => {
           {/* Right Side - Full Height Background Image */}
           <Grid item xs={12} md={6} position="relative">
             {/* <Image src={approachBg} alt="Approach Background" layout="responsive" width={100} height={100} style={{objectFit: 'cover',width:"100px" }} /> */}
-            <Image src={approachBg} style={{width: "300px", height: "1000px", marginLeft: "500px"}} />
+            <Image src={approachBg} style={{width: "300px", height: "600px", marginLeft: "600px"}} />
           </Grid>
         </Grid>
       </Container>

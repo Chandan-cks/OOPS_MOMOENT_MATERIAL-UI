@@ -18,10 +18,11 @@ const PartnerLogos = () => {
         color: "#fff",
         py: 5,
         textAlign: "center",
+        overflow: "hidden",
       }}
     >
       <Typography
-        variant="h3"
+        variant="h4"
         component="h2"
         fontWeight="bold"
         gutterBottom
@@ -29,7 +30,7 @@ const PartnerLogos = () => {
       >
         Our Partners
       </Typography>
-      <Typography sx={{ marginTop: 2, marginBottom: 10, fontSize: "1.2rem" }}>
+      <Typography sx={{ marginTop: 2, marginBottom: 5, fontSize: "1.2rem" }}>
         We work with a range of financial and technology partners from across
         the world.
       </Typography>
@@ -38,18 +39,19 @@ const PartnerLogos = () => {
           display: "flex",
           overflow: "hidden",
           position: "relative",
-          justifyContent: "start",
+          justifyContent: "center",
+          width: "100%",
         }}
       >
         {/* Animation Wrapper */}
         <Box
           sx={{
             display: "flex",
+            gap: 5,
             animation: "scrolling 20s linear infinite",
-            gap: 10,
             "@keyframes scrolling": {
               "0%": { transform: "translateX(0)" },
-              "100%": { transform: "translateX(-100%)" },
+              "100%": { transform: "translateX(-50%)" },
             },
           }}
         >
@@ -58,19 +60,18 @@ const PartnerLogos = () => {
             <Box
               key={index}
               sx={{
-                flex: "auto",
-                width: 250,
+                flexShrink: 0,
+                width: { xs: 100, sm: 150, md: 200, lg: 250 },
                 height: "auto",
                 position: "relative",
-                marginBottom:"50px"
               }}
             >
               <Image
                 src={logo}
                 alt={`Partner Logo ${index + 1}`}
-                layout="responsive"
+                layout="intrinsic"
                 objectFit="contain"
-                width={100}
+                width={150}
                 height={100}
                 style={{ filter: "brightness(0) invert(1)" }}
               />

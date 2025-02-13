@@ -19,14 +19,14 @@ const Mission = () => {
           </Typography>
         </Box>
 
-        <Grid container spacing={5} sx={{ backgroundColor: '#382818', color: '#fff' }} style={{width: "1910px", marginLeft: "-380px", display: "flex", alignItems: "center", height: "500px"}}>
+        <Grid container spacing={5} sx={{ backgroundColor: '#382818', color: '#fff' }} style={{width: "1910px", marginLeft: "-380px", display: "flex", alignItems: "center", height: "600px"}}>
                 <Image
                   src={sideimg}
                   alt="Left Design"
                   style={{
                     width: "300px",
-                    height: "400px",
-                    margin: "-24px 0px 0 0px"
+                    height: "426px",
+                    margin: "-100px 0px 0 0px"
                   }}
                 />
           <Grid item xs={12} md={6} style={{    textAlign: "left", margin: "0px 0px 0px -230px"}}>
@@ -46,9 +46,10 @@ const Mission = () => {
                   src={star}
                   alt="Right"
                   style={{
+                    color: "#C3A862",
                     width: "70px",
                     height: "70px",
-                    margin: "200px 0px 0px -450px"
+                    margin: "400px 0px 0px -573px"
                   }}
                 />
           <Grid item xs={12} md={8} style={{margin: "-500px 0px 0px 500px"}} >
@@ -56,12 +57,12 @@ const Mission = () => {
                   src={rightimg}
                   alt="Right"
                   style={{
-                    width: "200px",
-                    height: "100px",
-                    margin: "-100px 0px -50px 770px"
+                    width: "150px",
+                    height: "120px",
+                    margin: "-200px 0px 50px 1100px"
                   }}
                 />
-            <Typography variant="h4" sx={{ lineHeight: 1.5}}>
+            <Typography variant="h4" sx={{ lineHeight: 1.5, margin:"-153px 0 0 0", width:"1100px"}}>
               Opus Momentus is an emerging innovator in fintech and investments, leveraging years of proprietary trading expertise and cutting-edge technology. Our global partnerships with industry specialists and fintech leaders position us at the forefront of delivering curated, risk-adjusted solutions.
             </Typography>
             

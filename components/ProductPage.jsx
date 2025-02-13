@@ -49,11 +49,11 @@ const ProductPage = () => {
 
       <Grid container spacing={1} sx={{ mt: 0, width: '90%', mx: 'auto' }}>
         <Grid item xs={12} md={6}>
-          <Paper elevation={1} sx={{ p: 3, width:"650px", height:"480px", marginLeft:"15px" }}>
+          <Paper elevation={1} sx={{ p: 3, width:"700px", height:"480px", marginLeft:"85px" }}>
             <Typography variant="h4" fontWeight="bold" sx={{ mb: 1 }}>Stable returns with global reach</Typography>
             <Typography sx={{ mb: 0 }}>ODN delivers low-risk returns using proven strategies and advanced financial models that excel in volatility. Accessible through the OROX app as a robust, high-yield investment solution.</Typography>
             <Button variant="contained"
-            sx={{ width: 50, height: 50, borderRadius: "50%", display: "flex", mb: 1, justifyContent: "center", alignItems: "center", backgroundColor: "black", color: "white",
+            sx={{ width: 60, height: 60, borderRadius: "50%", display: "flex", mb: 1, justifyContent: "center", alignItems: "center", backgroundColor: "black", color: "white",
             "&:hover": {
               backgroundColor: "yellow",
                   },
@@ -62,20 +62,20 @@ const ProductPage = () => {
             >
             <ArrowForwardIcon />
           </Button>
-            <Image src={p1graph} alt="Graphical" width={600} height={260} style={{ objectFit: 'cover', mt: 2 }} /> 
-            <Grid style={{ margin: "-220px 0 0 503px" }}>
+            <Image src={p1graph} alt="Graphical" width={700} height={320} style={{ objectFit: 'cover', mt: 2 }} /> 
+            <Grid style={{ margin: "-260px 0 0 602px" }}>
               <FlipImage src={coin} alt="coinflip" width={50} height={50} />
             </Grid>
           </Paper>
         </Grid>
-        <Grid item xs={12} md={6}>
-          <Paper elevation={3} sx={{ p: 3, bgcolor: '#19191B' }}>
-            <Image src={banner} alt="banner" width={630} height={230} /> 
-            <Image src={bull} alt="Bull" width="90%"  height={180} style={{ objectFit: 'cover', mt: 0, marginTop: "-236px", marginBottom: "54px", marginLeft: "225px"}} /> 
+        <Grid item xs={12} md={6} >
+          <Paper elevation={3} sx={{ p: 3, bgcolor: '#19191B' }} style={{height: '487px',width:'680px'}}>
+            <Image src={banner} alt="banner" width={690} height={270} /> 
+            <Image src={bull} alt="Bull" width="90%"  height={230} style={{ objectFit: 'cover', marginTop: "-256px", marginBottom: "54px", marginLeft: "225px"}} /> 
             <Typography variant="h4" fontWeight="bold"  sx={{ color: 'white', mt: 0,  }}>High performance digital token</Typography>
             <Typography sx={{ color: 'white' }}>The DVOX Token is an asset-backed token that democratizes Web3 investments, offering investors an institutional-grade, risk-adjusted growth product through the OROX app.</Typography>
             <Button variant="contained" 
-            sx={{ width: 50, height: 50, borderRadius: "50%", display: "flex", mb: 1, justifyContent: "center", alignItems: "center", backgroundColor: "white", color: "black",
+            sx={{ width: 60, height: 60, borderRadius: "50%", display: "flex", mb: 1, justifyContent: "center", alignItems: "center", backgroundColor: "white", color: "black", marginTop:"20px",
             "&:hover": {
               backgroundColor: "yellow",
                   },
